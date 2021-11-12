@@ -1,0 +1,12 @@
+type Account @entity {
+  id: ID! #id is a required field
+  myToAddress: [Transfer] @derivedFrom(field: "to")
+}
+
+type Transfer @entity {
+  id: ID! #id is a required field
+  amount: BigInt
+  blockNumber: BigInt
+  to: Account!
+}
+
