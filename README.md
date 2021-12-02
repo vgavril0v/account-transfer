@@ -100,3 +100,4 @@ For the `subql-starter` project, you can try to query with the following code to
   }
 }
 ````
+"# account-transfer"  git init git add README.md git commit -m "first commit" git branch -M main git remote add origin https://github.com/vgavril0v/account-transfer.git git push -u origin main
